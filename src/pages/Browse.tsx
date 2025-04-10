@@ -5,13 +5,7 @@ import Footer from '@/components/Footer';
 import TaskCard from '@/components/TaskCard';
 import { tasks } from '@/data/tasks';
 import { categories } from '@/data/categories';
-import { 
-  Slider, 
-  SliderTrack, 
-  SliderFilledTrack, 
-  SliderThumb,
-  SliderMark,
-} from "@/components/ui/slider";
+import { Slider } from "@/components/ui/slider";
 import { 
   Card, 
   CardContent, 

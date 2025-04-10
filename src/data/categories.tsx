@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Home, Truck, Tool, Brush, Gift, Dog, Monitor, Book, ShoppingBag } from 'lucide-react';
+import { Home, Truck, Wrench, Brush, Gift, Dog, Monitor, Book, ShoppingBag } from 'lucide-react';
 
 export const categories = [
   {
@@ -22,7 +22,7 @@ export const categories = [
   {
     id: 'handyman',
     title: 'Handyman',
-    icon: <Tool size={36} className="text-yellow-500" />,
+    icon: <Wrench size={36} className="text-yellow-500" />,
     description: 'Repairs & home improvements',
     bgColor: 'bg-yellow-50',
     href: '/category/handyman'
